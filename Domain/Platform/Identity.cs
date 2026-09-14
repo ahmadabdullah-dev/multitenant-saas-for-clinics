@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace Domain;
+namespace Domain.Platform;
 public class AppUser : IdentityUser<Guid>
 {
     public required string FirstName { get; set; }
